@@ -1,222 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"rel="stylesheet"/>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
-    <title>Hotel Searching Website</title>
-  </head>
-  <body>
 
-    <header>
-      <h1 class="logo-text">
-          <a href="#">
-              Hotel Searching Website
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <title>Hotel Searching Website</title>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="logo-text">
+      <a href="#">
+        Hotel Searching Website
+      </a>
+    </h1>
+    <nav>
+      <ul class="links">
+        <li class="active-li">
+          <a href="#" class="active-link">
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
           </a>
-      </h1>
-      <nav>
-          <ul class="links">
-              <li class="active-li">
-                  <a href="#" class="active-link">
-                      <i class="fa-solid fa-house"></i>
-                      <p>Home</p>
-                  </a>
-              </li>
-              <li>
-                  <a href="#">
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                      <p>Search</p>
-                  </a>
-              </li>
-              <li>
-                  <a href="#">
-                      <i class="fa-solid fa-info"></i>
-                      <p>About us</p>
-                  </a>
-              </li>
-          </ul>
-      </nav>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>Search</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-info"></i>
+            <p>About us</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <div class="title">
-      <h1 id="page-title">Search Hotels</h1>
-      <p id="page-description">Search and filter the hotels by price, rating and amenities & Enjoy Your Dream Vacation</p>
+    <h1 id="page-title">Search Hotels</h1>
+    <p id="page-description">Search and filter the hotels by price, rating and amenities & Enjoy Your Dream Vacation</p>
   </div>
   <div class="search-section">
-      <form class="search-bar">
-          <div class="city-search">
-              <i class="fa-solid fa-location-dot"></i>
-              <input type="text" placeholder="Where are you going?">
-          </div>
-          <div class="hotel-search">
-              <i class="fa-solid fa-hotel"></i>
-              <input type="text" placeholder="Where do you want to stay?">
-          </div>
-          <input type="submit" value="Search">
-      </form>
+    <form class="search-bar">
+      <div class="city-search">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Where are you going?">
+      </div>
+      <div class="hotel-search">
+        <i class="fa-solid fa-hotel"></i>
+        <input type="text" placeholder="Where do you want to stay?">
+      </div>
+      <input type="submit" value="Search">
+    </form>
   </div>
 
 
 
-<section class="explore__container city__container">
-      <h2 class="sectionn__header">Explore India</h2>
-      <div class="explore__grid">
-        <div class="explore__card">
-          <img src="goa.jpg" alt="Goa" onclick="redirectToSearch('Destination 1')" />
-          <div class="explore__content">
-            <div class="explore__card__header">
-              <h4>Goa</h4>
-            </div>
-          </div>
-        </div>
-        <div class="explore__card">
-          <img src="mumbai.jpg" alt="Mumbai" onclick="redirectToSearch('Destination 2')" />
-          <div class="explore__content">
-            <div class="explore__card__header">
-              <h4>Mumbai</h4>
-            </div>
-          </div>
-        </div>
-        <div class="explore__card">
-          <img src="newdelhi.jpg" alt="New Delhi" onclick="redirectToSearch('Destination 3')" />
-          <div class="explore__content">
-            <div class="explore__card__header">
-              <h4>New Delhi</h4>
-            </div>
-          </div>
-        </div>
-        <div class="explore__card">
-          <img src="bangalore.jpg" alt="Bangalore" onclick="redirectToSearch('Destination 4')" />
-          <div class="explore__content">
-            <div class="explore__card__header">
-              <h4>Bangalore</h4>
-            </div>
-          </div>
-        </div>
-        <div class="explore__card">
-          <img src="kerala.jpg" alt="Kerala" onclick="redirectToSearch('Destination 5')" />
-          <div class="explore__content">
-            <div class="explore__card__header">
-              <h4>Kerala</h4>
-            </div>
-          </div>
-        </div>
-        <div class="explore__card">
-          <img src="jaipur.jpg" alt="Jaipur" onclick="redirectToSearch('Destination 6')" />
-          <div class="explore__content">
-            <div class="explore__card__header">
-              <h4>Jaipur</h4>
-            </div>
+  <section class="explore__container city__container">
+    <h2 class="sectionn__header">Explore India</h2>
+    <div class="explore__grid">
+      <div class="explore__card">
+        <img src="goa.jpg" alt="Goa" onclick="redirectToSearch('Destination 1')" />
+        <div class="explore__content">
+          <div class="explore__card__header">
+            <h4>Goa</h4>
           </div>
         </div>
       </div>
-    </section>
-    
-   
-
-<section class="section__container popular__container">
-      <h2 class="section__header">popular Hotels</h2>
-      <div class="popular__grid">
-        <div class="popular__card">
-          <img src="hotel-1.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 1')"/>
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>The Plaza Hotel</h4>
-              <h4>Rs.7500</h4>
-            </div>
-            <p>Mumbai</p>
-          </div>
-        </div>
-        <div class="popular__card">
-          <img src="hotel-2.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 2')"/>
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>Sunset Paradise Inn</h4>
-              <h4>Rs.8000</h4>
-            </div>
-            <p>Delhi</p>
-          </div>
-        </div>
-        <div class="popular__card">
-          <img src="hotel-3.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 3')" />
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>Blue Horizon Hotel</h4>
-              <h4>Rs.6500</h4>
-            </div>
-            <p>Kolkata</p>
-          </div>
-        </div>
-        <div class="popular__card">
-          <img src="hotel-4.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 4')" />
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>Royal Palace Hotel</h4>
-              <h4>Rs.9000</h4>
-            </div>
-            <p>Rajasthan</p>
-          </div>
-        </div>
-        <div class="popular__card">
-          <img src="hotel-5.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 5')" />
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>Moonlight Villa Hotel</h4>
-              <h4>Rs.7500</h4>
-            </div>
-            <p>Goa</p>
-          </div>
-        </div>
-        <div class="popular__card">
-          <img src="hotel-6.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 6')"/>
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>Hotel Paradise</h4>
-              <h4>Rs.7000</h4>
-            </div>
-            <p>Kerala</p>
+      <div class="explore__card">
+        <img src="mumbai.jpg" alt="Mumbai" onclick="redirectToSearch('Destination 2')" />
+        <div class="explore__content">
+          <div class="explore__card__header">
+            <h4>Mumbai</h4>
           </div>
         </div>
       </div>
-    </section>
-
-
-
-    <footer class="footer">
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <h3>Hotel Searching Website</h3>
-          <p>
-            Our Website is a premier hotel seraching website that offers a seamless and
-            convenient way to find accommodations in all over India.
-          </p>
-          <p>
-            With a user-friendly interface and a vast selection of hotels,
-            our Website aims to provide a stress-free experience for travelers
-            seeking the perfect stay.
-          </p>
-        </div>
-        <div class="footer__col">
-          <h4>Company</h4>
-          <p>About Us</p>
-          <p>Our Team</p>
-          <p>Contact Us</p>
-        </div>
-        <div class="footer__col">
-          <h4>Legal</h4>
-          <p>FAQs</p>
-          <p>Terms & Conditions</p>
-          <p>Privacy Policy</p>
-        </div>
-        <div class="footer__col">
-          <h4>Resources</h4>
-          <p>Social Media</p>
-          <p>Help Center</p>
-          <p>Partnerships</p>
+      <div class="explore__card">
+        <img src="newdelhi.jpg" alt="New Delhi" onclick="redirectToSearch('Destination 3')" />
+        <div class="explore__content">
+          <div class="explore__card__header">
+            <h4>New Delhi</h4>
+          </div>
         </div>
       </div>
-      
-    </footer>
-  </body>
+      <div class="explore__card">
+        <img src="bangalore.jpg" alt="Bangalore" onclick="redirectToSearch('Destination 4')" />
+        <div class="explore__content">
+          <div class="explore__card__header">
+            <h4>Bangalore</h4>
+          </div>
+        </div>
+      </div>
+      <div class="explore__card">
+        <img src="kerala.jpg" alt="Kerala" onclick="redirectToSearch('Destination 5')" />
+        <div class="explore__content">
+          <div class="explore__card__header">
+            <h4>Kerala</h4>
+          </div>
+        </div>
+      </div>
+      <div class="explore__card">
+        <img src="jaipur.jpg" alt="Jaipur" onclick="redirectToSearch('Destination 6')" />
+        <div class="explore__content">
+          <div class="explore__card__header">
+            <h4>Jaipur</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section__container popular__container">
+    <h2 class="section__header">popular Hotels</h2>
+    <div class="popular__grid">
+      <div class="popular__card">
+        <img src="hotel-1.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 1')" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>The Plaza Hotel</h4>
+            <h4>Rs.7500</h4>
+          </div>
+          <p>Mumbai</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img src="hotel-2.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 2')" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Sunset Paradise Inn</h4>
+            <h4>Rs.8000</h4>
+          </div>
+          <p>Delhi</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img src="hotel-3.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 3')" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Blue Horizon Hotel</h4>
+            <h4>Rs.6500</h4>
+          </div>
+          <p>Kolkata</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img src="hotel-4.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 4')" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Royal Palace Hotel</h4>
+            <h4>Rs.9000</h4>
+          </div>
+          <p>Rajasthan</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img src="hotel-5.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 5')" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Moonlight Villa Hotel</h4>
+            <h4>Rs.7500</h4>
+          </div>
+          <p>Goa</p>
+        </div>
+      </div>
+      <div class="popular__card">
+        <img src="hotel-6.jpg" alt="popular hotel" onclick="redirectToSearch('Destination 6')" />
+        <div class="popular__content">
+          <div class="popular__card__header">
+            <h4>Hotel Paradise</h4>
+            <h4>Rs.7000</h4>
+          </div>
+          <p>Kerala</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <h3>Hotel Searching Website</h3>
+        <p>
+          Our Website is a premier hotel seraching website that offers a seamless and
+          convenient way to find accommodations in all over India.
+        </p>
+        <p>
+          With a user-friendly interface and a vast selection of hotels,
+          our Website aims to provide a stress-free experience for travelers
+          seeking the perfect stay.
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <p>About Us</p>
+        <p>Our Team</p>
+        <p>Contact Us</p>
+      </div>
+      <div class="footer__col">
+        <h4>Legal</h4>
+        <p>FAQs</p>
+        <p>Terms & Conditions</p>
+        <p>Privacy Policy</p>
+      </div>
+      <div class="footer__col">
+        <h4>Resources</h4>
+        <p>Social Media</p>
+        <p>Help Center</p>
+        <p>Partnerships</p>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
 </html>
