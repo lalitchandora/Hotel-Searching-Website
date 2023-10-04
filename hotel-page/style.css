@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+section {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.star-contain {
+    padding-top: 100px;
+    text-align: left;
+    padding-left: 105px;
+
+}
+
+.star {
+    color: rgb(255, 230, 0);
+
+
+}
+
+.map-link {
+    text-align: left;
+    padding-left: 105px;
+    font-size: 14px;
+}
+
+.requestbtn {
+    text-align: right;
+    padding-right: 105px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.req-button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.hotelname h1 {
+    text-align: left;
+    padding-left: 105px;
+}
+
+/*--------IMge form-----------*/
+
+.box-container img {
+
+    height: 40%;
+    width: 40%;
+
+}
+
+
+
+
+
+.information {
+    padding-top: 30px;
+    text-align: left;
+    margin-left: 70px;
+    padding-left: 25px;
+    padding-right: 90px;
+}
+
+.information p {
+    padding-top: 10px;
+}
+
+/*--------MAP-----------*/
+
+.container1 iframe {
+    height: 400px;
+    width: 550px;
+    float: left;
+    padding-right: 50px;
+    margin-left: 70px;
+
+}
+
+/*--------login form-----------*/
+
+.login-form-container {
+
+
+    height: 400px;
+    width: 350px;
+    border: 4px solid grey;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.login-form-container form {
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    height: 350px;
+    width: 350px;
+
+}
+
+.login-form-container form .box {
+    width: 100%;
+    padding: 1rem;
+    font-size: 16px;
+    color: #333;
+    margin: .6rem 0;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    text-transform: none;
+
+
+
+}
+
+.login-form-container p {
+    font-size: 12px;
+}
+
+
+.btn {
+    display: inline-block;
+    background: orange;
+    margin-top: 1rem;
+    color: #fff;
+    padding: .8rem 3rem;
+    cursor: pointer;
+    border: .2rem solid orange;
+    border-radius: 7px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn:hover {
+    background: rgba(255, 165, 0, 0.2);
+    color: orange;
+}
+
+.login-form-container form .box:focus {
+    border-color: orange;
+}
+
+.login-form-container form #remember {
+    margin: 1rem 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+.login-form-container form label {
+    font-size: 14px;
+}
+
+
+
+/*------ reviwe section---------*/
+
+
+.Ananities {
+
+    padding-top: 5px;
+    margin: 50px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 40px;
+
+
+
+}
+
+.city-view {
+    border: 1px solid rgb(4, 0, 8);
+    height: 35px;
+    width: 150px;
+    border-radius: 3px;
+    padding-left: 7px;
+    padding-top: 10px;
+    float: left;
+
+
+}
+
+.Wi-Fi {
+    border: 1px solid rgb(4, 0, 8);
+    height: 35px;
+    width: 150px;
+    border-radius: 3px;
+    padding-left: 7px;
+    padding-top: 10px;
+    float: left;
+
+
+}
+
+.swimming {
+    border: 1px solid rgb(4, 0, 8);
+    height: 35px;
+    width: 150px;
+    border-radius: 3px;
+    padding-left: 7px;
+    padding-top: 10px;
+    float: left;
+
+}
+
+
+.free-parking {
+    border: 1px solid rgb(4, 0, 8);
+    height: 35px;
+    width: 150px;
+    border-radius: 3px;
+    padding-left: 7px;
+    padding-top: 10px;
+    float: left;
+
+}
+
+.garden {
+    border: 1px solid rgb(4, 0, 8);
+    height: 35px;
+    width: 150px;
+    border-radius: 3px;
+    padding-left: 7px;
+    padding-top: 10px;
+    float: left;
+
+}
+
+
+
+
+/* ------reviwe section------*/
+
+.Testimonials-heading h1 {
+    padding-top: 70px;
+}
+
+
+.testimonial-box {
+    padding-top: 30px;
+}
+
+.testimonial-box .box-left {
+    margin-left: 60px;
+}
+
+.testimonial-box .box-middle {
+    margin-left: 60px;
+}
+
+.testimonial-box .box-right {
+    margin-left: 60px;
+}
+
+
+
+.box-left {
+    border: 1px solid rgb(146, 151, 131);
+    height: 180px;
+    width: 280px;
+    text-align: center;
+    padding-top: 20px;
+    background: rgb(236, 245, 229);
+    float: left;
+
+}
+
+.box-middle {
+    border: 1px solid rgb(146, 151, 131);
+    height: 180px;
+    width: 280px;
+    text-align: center;
+    padding-top: 20px;
+    background: rgb(236, 245, 229);
+    position: relative;
+    float: left;
+}
+
+.box-right {
+    border: 1px solid rgb(146, 151, 131);
+    height: 180px;
+    width: 280px;
+    text-align: center;
+    padding-top: 20px;
+    background: rgb(236, 245, 229);
+    position: relative;
+    float: left;
+}
+
+.profile-img img {
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.user-name {
+    font-size: 16px;
+}
+
+
+.Reviwe p {
+    font-size: 12px;
+    color: rgb(41, 47, 53);
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
