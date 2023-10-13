@@ -1,0 +1,303 @@
+[
+    {
+        "img": "h1",
+        "name": "Hotel Sunshine",
+        "place": "Goa",
+        "date": "2023-10-08",
+        "price": 1500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4,
+        "bedroomCount": 2,
+        "description": "Hotel Sunshine in the vibrant beach town of Goa offers a perfect blend of relaxation and excitement. With its comfortable rooms and a serene atmosphere, it's a true sunshine retreat by the sea."
+    },
+    {
+        "img": "h2",
+        "name": "Beachfront Paradise Hotel",
+        "place": "Mumbai",
+        "date": "2023-10-09",
+        "price": 1800,
+        "amenities": [
+            "Free Wi-Fi",
+            "Smart TV",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 5,
+        "bedroomCount": 1,
+        "description": "Experience paradise at Beachfront Paradise Hotel in the bustling city of Mumbai. Enjoy stunning ocean views, luxurious amenities, and unforgettable DJ nights right on the beachfront."
+    },
+    {
+        "img": "h3",
+        "name": "Hillview Resort",
+        "place": "Shimla",
+        "date": "2023-12-15",
+        "price": 7500,
+        "amenities": [
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 3,
+        "bedroomCount": 3,
+        "description": "Nestled in the serene hills of Shimla, Hillview Resort offers a tranquil escape from the city's hustle and bustle. Relax in spacious rooms with breathtaking hillside views."
+    },
+    {
+        "img": "h4",
+        "name": "Ocean View Hotel",
+        "place": "Goa",
+        "date": "2023-12-20",
+        "price": 16000,
+        "amenities": [
+            "Free Wi-Fi",
+            "Beach Facing",
+            "Swimming Pool"
+        ],
+        "rating": 4,
+        "bedroomCount": 2,
+        "description": "Experience the beauty of the Arabian Sea at Ocean View Hotel in Goa. Wake up to stunning beach views, indulge in beachfront relaxation, and savor the coastal charm."
+    },
+    {
+        "img": "h5",
+        "name": "City Comfort Inn",
+        "place": "Delhi",
+        "date": "2023-10-08",
+        "price": 1200,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4,
+        "bedroomCount": 1,
+        "description": "City Comfort Inn in the heart of Delhi offers a cozy and convenient stay. Enjoy the comfort of air-conditioned rooms and a refreshing swimming pool in the bustling city."
+    },
+    {
+        "img": "h6",
+        "name": "Mountain View Retreat",
+        "place": "Manali",
+        "date": "2023-12-10",
+        "price": 14500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned"
+        ],
+        "rating": 5,
+        "bedroomCount": 3,
+        "description": "Nestled in the scenic landscapes of Manali, Mountain View Retreat provides a peaceful mountain escape. Relax in the lap of nature and unwind in spacious air-conditioned rooms."
+    },
+    {
+        "img": "h7",
+        "name": "Seaside Serenity Resort",
+        "place": "Goa",
+        "date": "2023-12-12",
+        "price": 10500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Beach Facing",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 4,
+        "bedroomCount": 2,
+        "description": "Seaside Serenity Resort in Goa offers a perfect blend of coastal charm and vibrant nightlife. Enjoy beachfront luxury and groove to DJ beats by the sea."
+    },
+    {
+        "img": "h8",
+        "name": "Heritage Palace Hotel",
+        "place": "Jaipur",
+        "date": "2023-10-10",
+        "price": 2200,
+        "amenities": [
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4,
+        "bedroomCount": 2,
+        "description": "Heritage Palace Hotel in Jaipur is a regal retreat that takes you back in time. Immerse yourself in the grandeur of Rajasthan while enjoying modern comforts."
+    },
+    {
+        "img": "h9",
+        "name": "Lakeview Lodge",
+        "place": "Udaipur",
+        "date": "2023-12-05",
+        "price": 5200,
+        "amenities": [
+            "Free Wi-Fi",
+            "Smart TV",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4,
+        "bedroomCount": 1,
+        "description": "Lakeview Lodge in the picturesque city of Udaipur offers a serene lakeside escape. Enjoy the view of the tranquil lake and modern amenities in your comfortable room."
+    },
+    {
+        "img": "h10",
+        "name": "Riverside Retreat",
+        "place": "Rishikesh",
+        "date": "2023-12-18",
+        "price": 9500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 4,
+        "bedroomCount": 1,
+        "description": "Riverside Retreat in Rishikesh is a peaceful haven on the banks of the Ganges. Experience the tranquility of the river and lively DJ nights by the water."
+    },
+    {
+        "img": "h11",
+        "name": "Desert Oasis Hotel",
+        "place": "Jaisalmer",
+        "date": "2023-12-22",
+        "price": 13000,
+        "amenities": [
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4,
+        "bedroomCount": 2,
+        "description": "Desert Oasis Hotel in Jaisalmer offers a luxurious desert experience. Enjoy the comforts of air-conditioned rooms and the mystique of the desert landscape."
+    },
+    {
+        "img": "h12",
+        "name": "Mountain Bliss Resort",
+        "place": "Manali",
+        "date": "2023-12-25",
+        "price": 17000,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 5,
+        "bedroomCount": 3,
+        "description": "Mountain Bliss Resort in Manali is a true paradise for nature lovers. Embrace the tranquility of the mountains and indulge in luxury in spacious, air-conditioned rooms."
+    },
+    {
+        "img": "h13",
+        "name": "Cityscape Hotel",
+        "place": "Delhi",
+        "date": "2023-10-08",
+        "price": 1900,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned"
+        ],
+        "rating": 3,
+        "bedroomCount": 1,
+        "description": "Cityscape Hotel in Delhi is the perfect urban oasis for travelers. Enjoy the modern comforts of the city and unwind in air-conditioned rooms after a day of exploration."
+    },
+    {
+        "img": "h14",
+        "name": "Hilltop Hideaway",
+        "place": "Shimla",
+        "date": "2023-12-28",
+        "price": 11000,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4,
+        "bedroomCount": 2,
+        "description": "Hilltop Hideaway in Shimla offers a secluded retreat in the Himalayan foothills. Enjoy breathtaking hilltop views and relax in the comfort of air-conditioned rooms."
+    },
+    {
+        "img": "h15",
+        "name": "Riverbank Lodge",
+        "place": "Rishikesh",
+        "date": "2023-12-31",
+        "price": 7500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 4,
+        "bedroomCount": 1,
+        "description": "Riverbank Lodge in Rishikesh is your gateway to the spiritual Ganges. Immerse yourself in the river's serenity and enjoy lively DJ nights by the water."
+    },
+    {
+        "img": "h16",
+        "name": "Historic Mansion",
+        "place": "Jaipur",
+        "date": "2023-10-12",
+        "price": 7500,
+        "amenities": [
+            "Air Conditioned"
+        ],
+        "rating": 4,
+        "bedroomCount": 2,
+        "description": "Historic Mansion in Jaipur is a glimpse into the rich history of Rajasthan. Experience regal charm in air-conditioned rooms that transport you to a bygone era."
+    },
+    {
+        "img": "h17",
+        "name": "Lakeside Retreat",
+        "place": "Udaipur",
+        "date": "2023-12-08",
+        "price": 5200,
+        "amenities": [
+            "Free Wi-Fi",
+            "Smart TV",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4,
+        "bedroomCount": 1,
+        "description": "Lakeside Retreat in Udaipur offers a serene escape by the lake. Enjoy modern amenities and mesmerizing lake views from the comfort of your air-conditioned room."
+    },
+    {
+        "img": "h18",
+        "name": "Golden Sands Resort",
+        "place": "Mumbai",
+        "date": "2023-12-14",
+        "price": 9500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Beach Facing",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 4,
+        "bedroomCount": 2,
+        "description": "Golden Sands Resort in Mumbai is a beachfront haven for beach lovers. Enjoy the golden sands, beachfront luxury, and vibrant DJ nights right by the ocean."
+    },
+    {
+        "img": "h19",
+        "name": "Serenity Villa",
+        "place": "Goa",
+        "date": "2023-12-09",
+        "price": 5200,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4,
+        "bedroomCount": 1,
+        "description": "Serenity Villa in Goa offers a peaceful retreat in the midst of the party scene. Relax in the serenity of your villa, complete with air conditioning and a swimming pool."
+    },
+    {
+        "img": "h20",
+        "name": "Grand Hyatt",
+        "place": "Bangalore",
+        "date": "2023-10-08",
+        "price": 10000,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool",
+            "Beach Facing",
+            "DJ Night",
+            "Smart TV"
+        ],
+        "rating": 5,
+        "bedroomCount": 3,
+        "description": "Grand Hyatt in Bangalore is the epitome of luxury and entertainment. Enjoy the fusion of modernity and nature with air-conditioned rooms, beachfront views, and lively DJ nights."
+    }
+]

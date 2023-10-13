@@ -1,0 +1,263 @@
+[
+    {
+        "name": "Hotel Sunshine",
+        "place": "Goa",
+        "date": "2023-10-08",
+        "price": 1500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4.4,
+        "bedroomCount": 2
+    },
+    {
+        "name": "Beachfront Paradise Hotel",
+        "place": "Mumbai",
+        "date": "2023-10-09",
+        "price": 1800,
+        "amenities": [
+            "Free Wi-Fi",
+            "Smart TV",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 5.2,
+        "bedroomCount": 1
+    },
+    {
+        "name": "Hillview Resort",
+        "place": "Shimla",
+        "date": "2023-12-15",
+        "price": 7500,
+        "amenities": [
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 3.7,
+        "bedroomCount": 3
+    },
+    {
+        "name": "Ocean View Hotel",
+        "place": "Goa",
+        "date": "2023-12-20",
+        "price": 16000,
+        "amenities": [
+            "Free Wi-Fi",
+            "Beach Facing",
+            "Swimming Pool"
+        ],
+        "rating": 4.9,
+        "bedroomCount": 2
+    },
+    {
+        "name": "City Comfort Inn",
+        "place": "Delhi",
+        "date": "2023-10-08",
+        "price": 1200,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4.7,
+        "bedroomCount": 1
+    },
+    {
+        "name": "Mountain View Retreat",
+        "place": "Manali",
+        "date": "2023-12-10",
+        "price": 14500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned"
+        ],
+        "rating": 5.7,
+        "bedroomCount": 3
+    },
+    {
+        "name": "Seaside Serenity Resort",
+        "place": "Goa",
+        "date": "2023-12-12",
+        "price": 10500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Beach Facing",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 4.4,
+        "bedroomCount": 2
+    },
+    {
+        "name": "Heritage Palace Hotel",
+        "place": "Jaipur",
+        "date": "2023-10-10",
+        "price": 2200,
+        "amenities": [
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4.9,
+        "bedroomCount": 2
+    },
+    {
+        "name": "Lakeview Lodge",
+        "place": "Udaipur",
+        "date": "2023-12-05",
+        "price": 5200,
+        "amenities": [
+            "Free Wi-Fi",
+            "Smart TV",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4.9,
+        "bedroomCount": 1
+    },
+    {
+        "name": "Riverside Retreat",
+        "place": "Rishikesh",
+        "date": "2023-12-18",
+        "price": 9500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 4.5,
+        "bedroomCount": 1
+    },
+    {
+        "name": "Desert Oasis Hotel",
+        "place": "Jaisalmer",
+        "date": "2023-12-22",
+        "price": 13000,
+        "amenities": [
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4.9,
+        "bedroomCount": 2
+    },
+    {
+        "name": "Mountain Bliss Resort",
+        "place": "Manali",
+        "date": "2023-12-25",
+        "price": 17000,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 5.4,
+        "bedroomCount": 3
+    },
+    {
+        "name": "Cityscape Hotel",
+        "place": "Delhi",
+        "date": "2023-10-08",
+        "price": 1900,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned"
+        ],
+        "rating": 3.9,
+        "bedroomCount": 1
+    },
+    {
+        "name": "Hilltop Hideaway",
+        "place": "Shimla",
+        "date": "2023-12-28",
+        "price": 11000,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4.8,
+        "bedroomCount": 2
+    },
+    {
+        "name": "Riverbank Lodge",
+        "place": "Rishikesh",
+        "date": "2023-12-31",
+        "price": 7500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 4.6,
+        "bedroomCount": 1
+    },
+    {
+        "name": "Historic Mansion",
+        "place": "Jaipur",
+        "date": "2023-10-12",
+        "price": 7500,
+        "amenities": [
+            "Air Conditioned"
+        ],
+        "rating": 4.7,
+        "bedroomCount": 2
+    },
+    {
+        "name": "Lakeside Retreat",
+        "place": "Udaipur",
+        "date": "2023-12-08",
+        "price": 5200,
+        "amenities": [
+            "Free Wi-Fi",
+            "Smart TV",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4.3,
+        "bedroomCount": 1
+    },
+    {
+        "name": "Golden Sands Resort",
+        "place": "Mumbai",
+        "date": "2023-12-14",
+        "price": 9500,
+        "amenities": [
+            "Free Wi-Fi",
+            "Beach Facing",
+            "Swimming Pool",
+            "DJ Night"
+        ],
+        "rating": 4.3,
+        "bedroomCount": 2
+    },
+    {
+        "name": "Serenity Villa",
+        "place": "Goa",
+        "date": "2023-12-09",
+        "price": 5200,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool"
+        ],
+        "rating": 4.5,
+        "bedroomCount": 1
+    },
+    {
+        "name": "Grand Hyatt",
+        "place": "Banglore",
+        "date": "2023-10-8",
+        "price": 10000,
+        "amenities": [
+            "Free Wi-Fi",
+            "Air Conditioned",
+            "Swimming Pool",
+            "Beach Facing",
+            "DJ Night",
+            "Smart TV"
+        ],
+        "rating": 5.1,
+        "bedroomCount": 3
+    }
+]
