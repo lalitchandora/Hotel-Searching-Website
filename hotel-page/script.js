@@ -24,23 +24,6 @@ function initPage() {
 }
 
 initPage();
-/*
-"id": 102,
-        "img": "h2",
-        "name": "Beachfront Paradise Hotel",
-        "place": "Mumbai",
-        "date": "2023-10-09",
-        "price": 1800,
-        "amenities": [
-            "Free Wi-Fi",
-            "Smart TV",
-            "Swimming Pool",
-            "DJ Night"
-        ],
-        "rating": 5,
-        "bedroomCount": 1,
-        "description":
-*/
 
 function loadData() {
     let name = document.getElementById("hotel-name");
